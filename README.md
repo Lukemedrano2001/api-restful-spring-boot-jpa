@@ -93,4 +93,4 @@ spring.flyway.baseline-on-migrate=true
 
 
 ## License
-Este projeto está licenciado sob a Licença MIT - [LICENSE](LICENSE).
+Este projeto está licenciado sob a Licença MIT.
