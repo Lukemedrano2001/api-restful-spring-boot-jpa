@@ -76,20 +76,20 @@ O projeto segue os princípios SOLID da seguinte maneira:
 
 
 ## Configurações do Banco de Dados
-spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_banco
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+- spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_banco
+- spring.datasource.username=seu_usuario
+- spring.datasource.password=sua_senha
 
 
 ## Outras Configurações
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.properties.hibernate.id.new_generator_mappings=false
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+- spring.jpa.properties.hibernate.id.new_generator_mappings=false
 
-spring.jackson.date-format=yyyy/MM/dd
-spring.jackson.time-zone=America/Sao_Paulo
+- spring.jackson.date-format=yyyy/MM/dd
+- spring.jackson.time-zone=America/Sao_Paulo
 
-spring.flyway.baseline-on-migrate=true
+- spring.flyway.baseline-on-migrate=true
 
 
 ## License
